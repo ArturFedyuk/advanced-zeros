@@ -12,14 +12,14 @@ module.exports = function getZerosCount(number, base) {
       if (date % i == 0) 
       {
       b = 0;
+
       while (date % i == 0) 
       {
         b++;
         date = Math.floor(date / i);
       }
 
-      while (c / i > 0)
-      {
+      while (c / i > 0) {
         a += Math.floor(c / i);
         c = Math.floor(c / i);
       }
