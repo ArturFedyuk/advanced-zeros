@@ -1,13 +1,13 @@
 module.exports = function getZerosCount(number, base) {
   
-  count = num;
+  count = number;
   date = base;
   a, b, c = 0;
 
   for (i = 2; i <= base; i++) 
   {
       a = 0;
-      c = num;
+      c = number;
 
       if (date % i == 0) 
       {
