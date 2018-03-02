@@ -1,10 +1,10 @@
 module.exports = function getZerosCount(number, base) {
   
-  count = number;
-  date = base;
-  a, b, c = 0;
+ let count = number;
+ let date = base;
+ let a, b, c = 0;
 
-  for (i = 2; i <= base; i++) 
+  for (let i = 2; i <= base; i++) 
   {
       a = 0;
       c = number;
